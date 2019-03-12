@@ -8,3 +8,8 @@ For each of the exercises in in the Jupyter Notebooks, you are required to creat
 
 
 Work through all the exercises to notebook 6
+
+## Running the exercises
+```
+python src/<script>.py
+```
