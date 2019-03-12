@@ -1,8 +1,6 @@
 # Working with strings
 
-def gc_content(sequence):
-    """
-    """
+def at_gc_content(sequence):
     read_length = len(sequence)
     AT_content = list(filter(lambda base: base == 'A' or base =='T', sequence))
     GC_content = list(filter(lambda base: base == 'G' or base =='C', sequence))
@@ -18,7 +16,7 @@ def amino_sequence_finder(sequence, indices):
 
 # Calculate the % GC and % AT content in the trna sequence
 trna="AAGGGCTTAGCTTAATTAAAGTGGCTGATTTGCGTTCAGTTGATGCAGAGTGGGGTTTTGCAGTCCTTA"
-gc_content(trna)
+at_gc_content(trna)
 
 # Given the following amino acid sequence (MNKMDLVADVAEKTDLSKAKATEVIDAVFA),
 # find the first, last and the 5th amino acids in the sequence.
