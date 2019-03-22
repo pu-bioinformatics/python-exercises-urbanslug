@@ -13,3 +13,5 @@ Work through all the exercises to notebook 6
 ```
 python src/<script>.py
 ```
+
+## Also include some basic information on the structure and content of your repo -1
